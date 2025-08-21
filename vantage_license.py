@@ -390,7 +390,7 @@ with st.sidebar:
 
 # Initialize APP
 st.title("ABBYY Vantage License Monitor")
-#st.write("Author: marcelo.araujo@abbyy.com")
+st.write("Author: marcelo.araujo@abbyy.com")
 
 if  st.session_state["token"] != "":
 
